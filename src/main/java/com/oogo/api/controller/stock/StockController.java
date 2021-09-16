@@ -17,5 +17,6 @@ public class StockController {
   @GetMapping("/kospi/all")
   public List<KospiStockDto> getKosPiStockList(HttpServletRequest request) {
     return stockService.getKosPiStockList();
+
   }
 }
